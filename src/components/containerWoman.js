@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useRef, memo } from "react";
 import axios from "axios";
 
 import { Link } from "react-router-dom";
@@ -8,7 +8,11 @@ import PropTypes from "prop-types";
 import "./header.css";
 import "./container_woman.css";
 
-const ContainerWoman = (props) => {
+
+const ContainerWomanOg = (props) => {
+  useEffect(()=>{
+    console.log(`Containerwoman ${name} rendered`)
+  })
   
   let {
     img_alt,
@@ -25,11 +29,7 @@ const ContainerWoman = (props) => {
     moveState,
   } = props;
   const properties = props;
-
- 
-
   // Make API -request for some meta-data
-
   // Get the correct index of the category the woman is in to check for
   const getCategoryIndex = ({ category }) => {
     if (category == "science") {
@@ -50,7 +50,6 @@ const ContainerWoman = (props) => {
 
   if (categorySelected[getCategoryIndex({ category })].isSelected) {
     const [x, setX] = useState(Math.floor(Math.random() * window.innerWidth));
-
     const [y, setY] = useState(Math.floor(Math.random() * window.innerHeight));
     
     return (
@@ -115,10 +114,15 @@ const ContainerWoman = (props) => {
   }
 };
 
-ContainerWoman.defaultProps = {
+ContainerWomanOg.defaultProps = {
   img_alt: "woman_image",
   img_classname: "homepage-image-woman",
   icon_classname: "homepage-image-icon-woman",
 };
 
+
+
+const ContainerWoman = React.memo(ContainerWomanOg)
+
 export default ContainerWoman;
+//#(prevProps, nextProps) => {(prevProps.name === nextProps.name || prevProps.moveState === nextProps.moveState) || }

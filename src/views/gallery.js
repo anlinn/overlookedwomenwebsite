@@ -25,7 +25,7 @@ const Gallery =()=>{
           <script src="../components/animation.js" type="text/javascript" />
         </Helmet>
         <Header rootClassName="header-root-class-name1"></Header>
-        <h1 className="tester italic font-normal">This is a test</h1>
+        <h1 className="tester font-bold">This is a test</h1>
         <div className="women-list">
            {womanListed}
         </div>

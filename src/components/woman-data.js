@@ -1,25 +1,7 @@
 export const womanData =[
     {
-        name:"Anna-Lena",
-          description:"After dying from cervical cancer in 1951, cancer cells were taken from here body without her prior consent. These cells were studies and used extensively in medical research since they were used to form the first immortalized human cell line known as the HeLa line. These cells were also later used to test the polio vaccine on, making it available a lot sooner thant otherwise would have been possible.",
-          category:"medicine",
-          top:"500px",
-          left:"400px",
-          img_alt:"Anna-Lena",
-          img_src:"https://upload.wikimedia.org/wikipedia/en/d/d7/Henrietta_Lacks_%281920-1951%29.jpg",
-          img_classname:"homepage-image-woman",
-          icon_alt:"Polio_vaccine",
-          
-          icon_src:"/playground_assets/syringe-200h.png",
-          icon_classname:"homepage-image-icon-woman",
-          link:"https://en.wikipedia.org/wiki/Henrietta_Lacks",
-          link_classname:"homepage-link-woman",
-          lifespan:"2003-?"
-          
-    },
-    {
         name: "Patsy Mink",
-        description:" She was the first asian -american woman who was elected to the house of representatives in 1964. Having faced racism and sexism growing up, she worked hard to fight segregation policies and later became the first one to oppose a Supreme Court nominee on the basis of discrimination against women. She served a total of 12 terms (24 years), split between representing Hawaii'sat-large congressional district and the second congressional district.",
+        description:" Patsy Mink was the first Asian American woman who was elected to the house of representatives in 1964. After having faced both racism and sexism growing up, she worked hard to fight segregation policies. She even became the first person ever to oppose a Supreme Court nominee on the basis of discrimination against women. She served a total of 12 terms ( so 24 years!), split between representing Hawaii'sat large congressional district and the second congressional district.",
         category:"politics",
         top:"300px",
         left:"450px",
@@ -40,7 +22,7 @@ export const womanData =[
     },{
         name:"Hedy Lamarr",
         category:"science",
-        description:"Hedy Lamarr was an Austrian-born actress and inventor. During world war II she helped invent a system for frequency hopping to prevent spionage from the germans. This invention was a lso the basis for later development of other wireless communication like Wi-Fi, GPS or Bluetooth.",
+        description:"Hedy Lamarr was an Austrian-born actress and inventor. During world war II she was involved in the invention of system for frequency hopping to prevent spionage from the germans. This invention later became the basis of many of our modern wireless communications like GPS, Bluetooth and of course Wi-Fi.",
         lifespan:"1914-2000",
         link:"https://en.wikipedia.org/wiki/Hedy_Lamarr",
         img_src:"/playground_assets/hedy-lamarr-g61dc56ee2_1920.jpg",
@@ -50,7 +32,7 @@ export const womanData =[
     },{
         name:"Gladys Bentley",
         category:"human",
-        description:"Gladys Bentley was an Renaissance blues singer and cross dresser. After running away at 16 to New York her characteristically deep voice quickly helped her to fame during the Halrem renaissance.",
+        description:" After running away at 16 to New York her characteristically deep voice quickly helped her to fame during the Halrem renaissance days as a talented blues singer and cross dresser.",
         lifespan:"1907-1960",
         link:"https://de.wikipedia.org/wiki/Gladys_Bentley",
         img_src:"https://upload.wikimedia.org/wikipedia/commons/b/b5/Gladys_Bentley_2.jpg",
@@ -61,7 +43,7 @@ export const womanData =[
     {
         name:"Henrietta Lacks",
         category:"medicine",
-        description:"After dying from cervical cancer in 1951, cancer cells were taken from here body without her prior consent. These cells were studies and used extensively in medical research since they were used to form the first immortalized human cell line known as the HeLa line. These cells were also later used to test the polio vaccine on, making it available a lot sooner thant otherwise would have been possible.",
+        description:"After dying from cervical cancer in 1951, cancer cells were taken from Henrietta's body to study (without her prior consent!). These cells were then used to form the first immortalized human cell line known as the HeLa line, which are used to this day in medical research. They became central for cancer research and were even used to test the polio vaccine on, making it available a lot sooner thant otherwise would have been possible.",
         lifespan:"1920-1951",
         link:"https://en.wikipedia.org/wiki/Henrietta_Lacks",
         img_src:"https://upload.wikimedia.org/wikipedia/commons/9/9e/Henrietta_Lacks_statue_at_Royal_Fort_House%2C_Bristol.jpg",
@@ -74,7 +56,7 @@ export const womanData =[
         name:"Faith Spotted Eagle",
         category:"human",
         lifespan:"1948-",
-        description:"As a member of the Yanktion Sioux Nation and american activist Faith Spotted Eagele was involved in the attempt to blick the development of the dacota access pipe. Furthermore she is a founding member of the brave heart society, that teaches young girls about traditional culture and in 2016 even received a single electoral vote for the Presidency of the US.",
+        description:"As a member of the Yanktion Sioux Nation and american activist Faith Spotted Eagele is a key figure in the fight for the rights of the group. She fought against was involved in the attempt to block the development of the dacota access pipe. Furthermore she is a founding member of the brave heart society, that teaches young girls about traditional culture and in 2016 even received a single electoral vote for the Presidency of the US.",
         link:"https://en.wikipedia.org/wiki/Faith_Spotted_Eagle",
         img_src:"https://upload.wikimedia.org/wikipedia/commons/8/83/Faith_Spotted_Eagle_%28cropped%29.png",
         img_alt:"Faith spotted eagle american human rights activist portrait",

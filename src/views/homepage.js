@@ -23,7 +23,7 @@ class Homepage extends React.Component {
     move: true,
   };
   // Tester for getting appropiate wikipedia link
-  search = async (woman) => {
+  /*search = async (woman) => {
     const { data } = await axios.get("https://en.wikipedia.org/w/api.php", {
       params: {
         action: "query",
@@ -35,10 +35,9 @@ class Homepage extends React.Component {
     });
     console.log(data);
   };
+  */
   onWomanSelect = (woman) => {
     this.setState({ selectedWoman: woman });
-    this.search(woman);
-    
   };
   // Update the appropiate entry in the Category-State on button press
   onCategorySelect = (index) => {
