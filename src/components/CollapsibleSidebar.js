@@ -30,12 +30,12 @@ const CollapsibleSidebar = ({ onClickSelectCategory }) => {
               </span>
   </li>*/}
               <form>
-                {SidebarData.map((category, index) => {
+                {SidebarData.map((category,i) => {
                   return (
-                    <div className="sidebar-text">
+                    <div className="sidebar-text" key={i}>
                       <label htmlFor={category.name}>
       
-                      
+        
                       <input
                         type="checkbox"
                         id={category.id}

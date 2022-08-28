@@ -39,15 +39,15 @@ const WomanDetail = ({ displayedWoman, onWomanSelect }) => {
             </div>
             <div className="column">
               <div className="content">
-                <a className="header">{displayedWoman.name}</a>
+                <a className="header detail-link" id={`${displayedWoman.name.toLowerCase().replaceAll(" ","-")}`}>{displayedWoman.name}</a>
                 <div className="meta">
-                  <span>{displayedWoman.lifespan}</span>
+                  {displayedWoman.lifespan}
                 </div>
                 <div className="description">
                   <p>{displayedWoman.description}</p>
                 </div>
                 <div className="link-box">
-                  <a className="link" href={displayedWoman.link}>
+                  <a className="detail-link" href={displayedWoman.link}>
                     Learn more about her !
                   </a>
                 </div>

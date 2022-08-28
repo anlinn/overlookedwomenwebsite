@@ -5,13 +5,14 @@
   height: 75px;
   display: flex;
   padding: var(--dl-space-space-unitandhalf);
-  z-index: 1;
+  z-index: 70;
   max-width: 100%;
   align-items: center;
   margin-bottom: 0.75rem;
   padding-right: 1.5rem;
   flex-direction: row;
   justify-content: space-between;
+  background-color: var(--color-background);
 }
 .header-container {
   display: flex;

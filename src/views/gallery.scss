@@ -1,19 +1,32 @@
-div.gallery-page-container{
+@import '~loaders.css/src/animations/pacman.scss';
+
+
+.gallery-page-container{
     background-color: var(--color-background);
    width:100vw;
    height:100vh;
    overflow-y:auto;
    padding-left: -40px;
-   
-
 }
 
-.card.info{
+.gal-card.info{
     float:left;
 }
-.tester{
-    color:white;
+
+.loader-active{
+    display:blocK;
+    position: absolute;
+    left:0;
+    right:0;
+    margin:auto;
+    top:0;
+    width:50px;
+    height:50px;
+    animation: fadeOut 1s 1s;
+    animation-fill-mode: forwards;
+
 }
+
 
 
 

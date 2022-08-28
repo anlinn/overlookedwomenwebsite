@@ -7,7 +7,6 @@ import { womanData } from "./woman-data";
 
 const WomanList = ({ onWomanSelect, categorySelected, moveState }) => {
   // move state from homepage.js
-  let move = moveState;
   
   return (
     <div>

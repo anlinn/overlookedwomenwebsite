@@ -10,9 +10,6 @@ import "./container_woman.css";
 
 
 const ContainerWomanOg = (props) => {
-  useEffect(()=>{
-    console.log(`Containerwoman ${name} rendered`)
-  })
   
   let {
     img_alt,

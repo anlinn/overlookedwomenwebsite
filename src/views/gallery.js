@@ -1,6 +1,7 @@
 import React,{useEffect} from "react";
 import "./gallery.scss"
 import { Helmet } from "react-helmet";
+import {Loader} from 'react-loaders';
 
 import GalleryWomanDetail from "../components/GalleryWomanDetail";
 import { womanData } from "../components/woman-data";
@@ -18,6 +19,7 @@ const Gallery =()=>{
         )
     })
     return(
+        <>
         <div className="gallery-page-container">
         <Helmet>
           <title>OverlookedWomen</title>
@@ -30,6 +32,8 @@ const Gallery =()=>{
            {womanListed}
         </div>
         </div>
+        
+        </>
     )
 }
 export default Gallery;

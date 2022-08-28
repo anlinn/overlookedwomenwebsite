@@ -1,16 +1,4 @@
-.homepage-container {
-    width: 100%;
-    display: flex;
-    overflow: auto;
-    min-height: 100vh;
-    align-items: flex-start;
-    flex-direction: column;
-    justify-content: flex-start;
-    background-color: var(--color-background);
-    overflow-x: hidden;
-    overflow-y:hidden;
-  }
-  .homepage-container-woman {
+.homepage-container-woman {
     
     left: 452px;
     width: 100px;
@@ -24,7 +12,7 @@
     z-index: 500;
   }
 
-  .homepage-container-woman-inner {
+.homepage-container-woman-inner {
     top: -21px;  /* Will have to factor out later*/
     left: -28px;
     width: 150px;
@@ -66,7 +54,6 @@
   .homepage-text-woman-header {
     height: 37px;
     color:white;
-    
     line-height: 1.25;
     border-radius: var(--dl-radius-radius-radius4);
   }
@@ -113,7 +100,6 @@
     height:150px;
     transform: rotate(30deg);
   }
-
 
   .source:hover 
   .target {
